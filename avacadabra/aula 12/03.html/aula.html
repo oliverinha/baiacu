@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="">
+        <fieldset>
+            <legend><strong>Dados principais</strong></legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome"
+                size="50" maxlength="50"> <br>
+            E-mail <input type="email" placeholder="E-mail">
+            <label>
+                <input type="date" max="2022-01-01">
+            </label>
+
+            <h4>Cor/etinia</h4>
+            <input type="radio" name="Cor" value="br">Branco(a) <br>
+            <input type="radio" name="Cor" value="pt">Negro(a) <br>
+            <input type="radio" name="Cor" value="pd">Pardo(a) <br>
+            <input type="radio" name="Cor" value="am">Amarelo(a) <br>
+            <input type="radio" name="Cor" value="ind">Indigena <br>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+            <label> Renda Familiar
+                <Input type="number" min="0" step="0.01"></Input>               
+            </label>
+            <h4>Preferencias Musicais</h4>
+            <input type="checkbox" value="Samba">Samba <br>
+            <input type="checkbox" value="Rock"> Rock <br>
+            <input type="checkbox" value="Pagode"> Pagode <br>
+            <br>
+            <label for="estado">Estado Natal</label> <br>
+            <select id="Estado">
+                <option value="RO">Rondonia</option>
+                <option value="SP">Sao Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PR">Parana</option>
+                <option value="DF">Distrito Federal</option>
+            </select><br> <hr>
+            <label for="obs">Observações</label> <br>
+            <textarea id="obs" name="obs" cols="40" rows="13" placeholder="escreve os 12 titulos do paysandu"></textarea><br>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </fieldset>
+    </form>
+</body>
+</html>
