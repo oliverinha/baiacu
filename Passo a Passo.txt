@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Passo-a-Passo</title>
+	</head>
+	<body>
+		<fieldset>
+		<legend><b>"Como Sacar Dinheiro"</b></legend>
+		<h3>Operações Caixa Eletrônico<br> "Passo a Passo"</h3>
+		<ol type="1">
+				<li>Localize um caixa eletrônico do seu banco</li>
+				<li>Verifique se está funcionando</li>
+				<li>Insira seu cartão</li>
+				<li>Escolha a opção de "SAQUE"</li>
+				<li>Digite o valor desejado</li>
+				<li>Confirme a transação por senha</li>
+				<li>Aguarde a confirmação e contagem das cédulas</li>
+				<li>Retire as cédulas do caixa</li>
+				<li>Confira o valor</li>
+				<li>Retire oo cartão do caixa eletrônico</li>
+				<li>Guarde o cartão</li>
+				<li>Guarde o dinheiro</li>
+				<li>Retire do local</li>
+		</fieldset>
+		<button type="button" onclick="file:///G:/Meu%20Drive/IFRO/IFRO_2024/Projetos_PROG_I/INDEX_HTML_GITHUB/MINHA%20HTML_VIDEO_AULA.html">Retornar</button>
+
+		
